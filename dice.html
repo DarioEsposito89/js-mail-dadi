@@ -9,6 +9,33 @@
 </head>
 <body>
     <main>
+        <section class="mt-5">
+            <div class="container mybg-primary-color">
+                <div class="row">
+                    <h2 class="text-center text-uppercase fw-bold">Lancio dadi</h2>
+                    <div class="container bg-white p-5" id="dice-container">
+                        <h3 class="text-uppercase fw-bold">Lancio dadi random</h3>
+                        <div class="row border border-3 my-border-color-secondary border-end-0">
+                            <div class="col d-flex justify-content-center align-items-center d-flex flex-wrap gap-5 p-3">
+                                <div class="col-6 col-md-2">
+                                    <h4>Utente</h4>
+                                    <p id="user"></p>
+                                </div>
+                                <div class="col-6 col-md-2">
+                                    <h4>PC</h4>
+                                    <p id="pc"></p>
+                                </div>
+                                <!-- Bottoni - Genera e Annulla -->
+                                <div class="buttons d-flex justify-content-center mt-5 mb-3 gap-4">
+                                    <input class="btn btn-primary my-primary-color border-3 bg-body-secondary border-secondary fw-bold" id="generate" type="button" value="Genera">
+                                    <input class="btn btn-primary my-primary-color border-3 bg-body-secondary border-secondary fw-bold" id="cancel" type="reset" value="Annulla">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>    
         
     </main>
 

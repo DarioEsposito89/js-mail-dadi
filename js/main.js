@@ -6,14 +6,13 @@ let emailTrovata = false;
 const btnVerifica = document.getElementById("verifica");
 
 btnVerifica.addEventListener("click", function () {
-
-    let emailInseritaUtente = document.forms['cercamail'].email.value;
     
     for (let i = 0; i < listaEmail.length; i++) {
         console.log(i);
         listaEmail[i];
         console.log(listaEmail[i]);
-        let emailInseritaUtente = listaEmail[i];
+        let emailInseritaUtente = document.getElementById("email").value;
+        emailInseritaUtente = listaEmail[i];
 
         if (emailInseritaUtente === listaEmail[i]) {
             emailTrovata === true;
