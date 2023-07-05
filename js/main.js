@@ -4,7 +4,6 @@ console.log(listaEmail)
 let emailTrovata = false;
 
 const btnVerifica = document.getElementById("verifica");
-
 btnVerifica.addEventListener("click", function () {
     
     for (let i = 0; i < listaEmail.length; i++) {
@@ -12,8 +11,7 @@ btnVerifica.addEventListener("click", function () {
         listaEmail[i];
         console.log(listaEmail[i]);
         let emailInseritaUtente = document.getElementById("email").value;
-        emailInseritaUtente = listaEmail[i];
-
+        emailInseritaUtente === listaEmail[i];
         if (emailInseritaUtente === listaEmail[i]) {
             emailTrovata === true;
         }   else {
