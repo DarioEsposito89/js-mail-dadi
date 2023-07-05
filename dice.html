@@ -15,7 +15,7 @@
                     <h2 class="text-center text-uppercase fw-bold">Lancio dadi</h2>
                     <div class="container bg-white p-5" id="dice-container">
                         <h3 class="text-uppercase fw-bold">Lancio dadi random</h3>
-                        <div class="row border border-3 my-border-color-secondary border-end-0">
+                        <div class="row border border-3 my-border-color-secondary">
                             <div class="col d-flex justify-content-center align-items-center d-flex flex-wrap gap-5 p-3">
                                 <div class="col-6 col-md-2">
                                     <h4>Utente</h4>
@@ -25,10 +25,14 @@
                                     <h4>PC</h4>
                                     <p id="pc-dice"></p>
                                 </div>
+                                <div class="col-6 col-md-2">
+                                    <h4>Risultato</h4>
+                                    <p id="result-dice"></p>
+                                </div>
                                 <!-- Bottoni - Genera e Annulla -->
                                 <div class="buttons d-flex justify-content-center mt-5 mb-3 gap-4">
-                                    <input class="btn btn-primary my-primary-color border-3 bg-body-secondary border-secondary fw-bold" id="generate-dice" type="button" value="Genera">
-                                    <input class="btn btn-primary my-primary-color border-3 bg-body-secondary border-secondary fw-bold" id="cancel-dice" type="reset" value="Annulla">
+                                    <input class="btn btn-primary  border-3 fw-bold" id="generate-dice" type="button" value="Lancia">
+                                    <input class="btn btn-primary  border-3 fw-bold" id="cancel-dice" type="reset" value="Annulla">
                                 </div>
                             </div>
                         </div>
@@ -40,10 +44,10 @@
         <section class="mt-5">
             <div class="container mybg-primary-color">
                 <div class="row">
-                    <h2 class="text-center text-uppercase fw-bold">Vince il numero più alto</h2>
+                    <h2 class="text-center text-uppercase fw-bold">Vince la somma di numeri più alta</h2>
                     <div class="container bg-white p-5" id="dice-container">
-                        <h3 class="text-uppercase fw-bold">Lancio dadi random</h3>
-                        <div class="row border border-3 my-border-color-secondary border-end-0">
+                        <h3 class="text-uppercase fw-bold">Inserisci tre numeri e gioca contro il Pc</h3>
+                        <div class="row border border-3 my-border-color-secondary">
                             <div class="col d-flex justify-content-center align-items-center d-flex flex-wrap gap-5 p-3">
                                 <div class="col-6 col-md-2">
                                     <h4>Utente</h4>
@@ -65,10 +69,14 @@
                                     <h4>PC</h4>
                                     <p id="pc-number"></p>
                                 </div>
+                                <div class="col-6 col-md-2">
+                                    <h4>Risultato</h4>
+                                    <p id="result-number"></p>
+                                </div>
                                 <!-- Bottoni - Genera e Annulla -->
                                 <div class="buttons d-flex justify-content-center mt-5 mb-3 gap-4">
-                                    <input class="btn btn-primary my-primary-color border-3 bg-body-secondary border-secondary fw-bold" id="generate-number" type="button" value="Genera">
-                                    <input class="btn btn-primary my-primary-color border-3 bg-body-secondary border-secondary fw-bold" id="cancel-number" type="reset" value="Annulla">
+                                    <input class="btn btn-primary fw-bold" id="generate-number" type="button" value="Genera">
+                                    <input class="btn btn-primary  fw-bold" id="cancel-number" type="reset" value="Annulla">
                                 </div>
                             </div>
                         </div>
