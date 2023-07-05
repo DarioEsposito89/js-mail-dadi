@@ -12,11 +12,13 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-5 mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Inserisci e-mail per verificare se è nell'elelnco</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <form name="cercamail">
+                        <label for="exampleInputEmail1" class="form-label">Inserisci e-mail per verificare se è nell'elelnco</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email">
+                    </form>
                 </div>
                 <div class="d-flex justify-content-center">
-                    <button type="submit" class="col-2 btn btn-primary">Verifica</button>
+                    <button type="submit" id="verifica" class="col-2 btn btn-primary">Verifica</button>
                 </div>
             </div>
         </div>
