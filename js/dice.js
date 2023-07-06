@@ -78,9 +78,9 @@ btnGenerateNumber.addEventListener("click", function () {
 const btnCancelNumber = document.getElementById("cancel-number");
 btnCancelNumber.addEventListener("click", function () {
     // sparizione parametri Utente e Pc
-    document.getElementById("userFirstNumber").value = "";
-    document.getElementById("userSecondNumber").value = "";
-    document.getElementById("userThirdNumber").value = "";
+    document.getElementById("userfirstnumber").value = "";
+    document.getElementById("usersecondnumber").value = "";
+    document.getElementById("userthirdnumber").value = "";
 
     document.getElementById("user-number").innerHTML = "";
     document.getElementById("pc-number").innerHTML = "";
